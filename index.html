@@ -10,12 +10,12 @@
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>CodeConnect</title>
+    <title>Code Connect</title>
 </head>
 
 <body>
     <aside>
-        <img src="./img/Logo.svg" alt="Logo do CodeConnect">
+        <img src="./img/Logo.svg" alt="Logo do Code Connect">
         <nav>
             <ul class="lista-links">
                 <li>
@@ -68,7 +68,7 @@
             <form>
                 <div>
                     <label for="nome">Nome do projeto</label>
-                    <input type="text" id="nome" name="nome">
+                    <input type="text" id="nome" name="nome"/>
                 </div>
 
                 <div>
@@ -77,22 +77,18 @@
                 </div>
 
                 <div>
-                    <label for="categoria">Tags</label>
-                    <input type="text" id="categoria" name="categoria">;
+                    <label for="input-tags">Tags</label>
+                    <input type="text" name="categoria" id="input-tags" />
                 </div>
 
-                <ul class="lista-tags">
-                    <li>
-                        <p>Front-End</p>
-                        <img src="./img/close-black.svg">
-                    </li>
+                <ul class="lista-tags" id="lista-tags">
+
                 </ul>
 
                 <div class="container-botoes">
                     <button class="botao-descartar">Descartar</button>
                     <button class="botao-publicar">Publicar</button>
                 </div>
-
 
             </form>
         </div>

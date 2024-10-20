@@ -55,7 +55,7 @@ aside {
     font-size: 24px;
 }
 
-.lista-links li:first-of-type {
+.lista-links li:first-of-type a {
     color: var(--primary-color);
 }
 
@@ -122,6 +122,7 @@ textarea {
 
 .lista-tags {
     display:flex;
+    gap: 8px;
 }
 
 .container-botoes {
