@@ -129,3 +129,17 @@ botaoPublicar.addEventListener("click", async (evento) => {
         alert("Deu tudo errado!");
     }
 })
+
+const botaoDescartar = document.querySelector(".botao-descartar");
+
+botaoDescartar.addEventListener("click", (evento) => {
+    evento.preventDefault();
+
+    const formulario = document.querySelector("form");
+    formulario.reset();
+
+    imagemPrincipal.src = "./img/imagem1.png";
+    nomeDaImagem.textContent = "image_projeto.png";
+
+    listaTags.innerHTML = "";
+})
